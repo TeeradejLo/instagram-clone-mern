@@ -1,0 +1,23 @@
+.imageupload {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 10px auto;
+}
+
+.imageupload > * {
+  margin-bottom: 5px;
+}
+
+.imageupload__fileAndButton {
+  display: flex;
+  align-items: center;
+}
+
+.imageupload__fileAndButton > input {
+  flex: 1;
+}
+
+.imageupload__fileAndButton > button {
+  flex: 0;
+}

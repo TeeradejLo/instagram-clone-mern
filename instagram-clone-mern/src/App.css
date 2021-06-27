@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+}
+
+.app {
+  background-color: #fafafa;
+  min-height: 100vh;
+}
+
+.app__header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 15px;
+  border-bottom: 1px solid lightgray;
+}
+
+.app__headerImage {
+  object-fit: contain;
+  height: 4vh;
+}
+
+.app__signup {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.app__posts {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.app__footer {
+  position: sticky;
+  bottom: 0;
+  background-color: white;
+  padding: 15px;
+  border-top: 1px solid lightgray;
+}
+
+.app__logContainer {
+  display: flex;
+  align-items: center;
+}
+
+.app__logContainer > h3 {
+  margin-right: 30px;
+}
